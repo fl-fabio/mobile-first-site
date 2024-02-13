@@ -1,0 +1,70 @@
+@media screen and (min-width: 320px) {
+
+    /* Navbar */
+    .navbar a {
+        font-size: 1.1rem;
+    }
+
+    .navbar ul {
+        padding: 0 20px;
+    }
+
+    .navbar .navbar__logo {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    /* Navbar flex */
+    .navbar {
+    line-height: 120px;
+    }
+
+    .hero .content h1{
+        font-size: 2.5rem;
+    }
+
+    .hero .content p {
+        font-size: 1.4rem;
+    }
+
+    /* Icons */
+    .icons {
+        padding: 30px;
+    }
+
+    /* Flex items */
+    .flex-items {
+        height: 100%;
+        padding-left: 40px;
+    }
+
+
+    .flex-items > div {
+        padding: 20px;
+        min-width: 300px;
+    
+    }
+
+    .flex-items h4 {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .flex-columns .column-2 {
+        padding: 30px;
+    }
+
+    .flex-columns h4 {
+        margin-bottom: 10px;
+    }
+
+    .flex-columns p {
+        margin: 20px 0;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+
+}
+
+}

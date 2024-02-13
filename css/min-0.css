@@ -1,0 +1,284 @@
+/* Navbar */
+
+.navbar a {
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    border-bottom: #28a745 2px solid;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    line-height: 40px;
+}
+
+.navbar .navbar__logo {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.navbar .navbar__nav {
+    padding: 20px 0;
+}
+
+
+
+/* Navbar flex */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background: #333;
+    color: #fff;
+    opacity: 0.8;
+    width: 100%;
+    padding: 10px 20px;
+    top: 0px;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, rgba(0,0,0,0.7) 70%, rgba(0,0,0,0.2)), url(../img/home/bg-header.jpg) no-repeat center/cover;
+    height: 100vh;
+    /* position: relative; */
+    color: #fff;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.hero .content h1{
+    margin-top: 140px;
+    font-size: 2rem;
+}
+
+.hero .content p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 20px 0 30px;
+}
+
+/* Icons */
+.icons {
+    padding: 0 auto;
+}
+
+.icons h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.icons i {
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.icons-blue i {
+    background-color: #0284d0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.icons-blue {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    position: sticky;
+    top: 90vh;
+    right: 10vh;
+}
+
+.gallery img:hover {
+    opacity: 0.7;
+}
+
+.team img {
+    border-radius: 100%;
+}
+
+/* Flex items */
+.flex-items {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding-left: 20px;
+    overflow-x: auto;
+}
+
+.flex-items-icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+}
+
+.flex-items-icon > div {
+    padding: 20px;
+}
+
+.flex-items > div {
+    padding: 10px;
+    min-width: 200px;
+}
+
+.flex-items h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Flex grid */
+.flex-grid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+
+.flex-grid img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+/* Flex columns */
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
+}
+
+.flex-columns .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .column{
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+    height: 100%;
+}
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.flex-columns h2 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.flex-columns h4 {
+    margin-bottom: 10px;
+}
+
+.flex-columns p {
+    margin: 20px 0;
+}
+
+/* Section header */
+.section-header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 1.6rem;
+    margin: 20px 0;
+}
+
+.section-padding {
+    padding: 20px 20px 40px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #28a745;
+}
+
+.footer__social {
+    padding-bottom: 20px;
+}
+
+.footer__social .link{
+    margin: 0 10px;
+}
+
+.footer__link {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.footer__link h3{
+    color: #28a745;
+    text-decoration: underline;
+}
+
+.footer .footer__logo {
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.footer__author {
+    color: #28a745;
+    padding-bottom: 20px;
+}
+
+
+
